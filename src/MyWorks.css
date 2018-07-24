@@ -1,0 +1,122 @@
+.sub {
+	text-align: center;
+}
+.My-works {
+	height: 170vh;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+.code,
+.design {
+	width: 160px;
+	height: 36px;
+	border-radius: 25px;
+	border: none;
+	color: #000;
+}
+.code {
+	margin-right: 80px;
+	transition: all 0.3s ease-out;
+}
+.code.sh {
+	background-color: #FC4349;
+	color: #fff;
+}
+.design {
+	margin-left: 80px;
+	transition: all 0.3s ease-out;
+}
+.design.sh {
+	background-color: #FC4349;
+	color: #fff;
+}
+.code:focus,
+.design:focus {
+	outline: none;
+}
+.design.red {
+	background-color: #FC4349;
+	color: #fff;
+}
+.code:hover,
+.design:hover {
+	background-color: #FC4349;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+}
+
+.img1,
+.img2 {
+	width: 312px;
+	height: 212px;
+}
+.img1 {
+	margin-left: 10px;
+}
+.img2 {
+	margin-right: 10px;
+}
+.left {
+	margin-right: 10px;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 5%;
+}
+.project_heading {
+	font-size: 25px;
+	margin-bottom: 23px;
+}
+.project_buttons {
+	display: flex;
+	justify-content: space-around;
+}
+.live-btn,
+.src-btn {
+	width: 100px;
+	border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid #000;
+}
+.live-btn:focus,
+.src-btn:focus {
+	outline: none !important;
+}
+.live-btn:hover,
+.src-btn:hover {
+	background-color: #FC4349;
+	color: #fff !important;
+	border: none;
+	cursor: pointer;
+}
+.right {
+	margin-left: 10px;
+	text-align: right;
+	position: absolute;
+	right: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.project_container {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	margin: 60px auto;
+}
+.text-area {
+	width: 19vw;
+	text-align: center;
+}
+.project_container_2 {
+	width: 90%;
+	margin: 280px auto;
+}
+.image-area img {
+	border-radius: 10px;
+	box-shadow: 8px 5px 17px 0px rgba(0,0,0,0.08);;
+}
